@@ -1,10 +1,3 @@
-# First Commit
-<!--
-	Challenge:
-	Style the text in the article below.
-
-	Your goal:
-
-	- Set a base font size on the body.
-	- Use em sizes for setting the font sizes on everything else.
--->
+# Magic Box
+Magic box is a simple repo that has one job: help explain flex-box and create a tip calculator.
+Check index.html for the tip calculator.
