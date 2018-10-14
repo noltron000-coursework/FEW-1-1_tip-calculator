@@ -1,20 +1,20 @@
-
 <!doctype html>
 <html>
 	<head>
 		<title>Tip Calculator</title>
 		<link rel="stylesheet" href="./style.css"></link>
+		<link rel="stylesheet" href="./script.js"></link>
 	</head>
 	<body>
 		<div id="container">
 			<p class="input">
-				<label class="input-label" for="amount">Bill</label>
-				<input class="input-textbox" id="amount" type="number" value="0.00">
+				<label class="input_label" for="in_amount">Bill</label>
+				<input class="input_textbox" id="in_amount" type="number" value="0.00">
 			</p>
 
 			<p class="input">
-				<label class="input-label" for="percent">Tip %</label>
-				<input class="input-textbox" id="percent" type="number" value="15">
+				<label class="input_label" for="in_percent">Tip %</label>
+				<input class="input_textbox" id="in_percent" type="number" value="15">
 			</p>
 
 			<p class="input">
@@ -23,13 +23,14 @@
 
 			<p class="output">
 				<span>Tip:</span>
-				<span class="info" id="tip">0.00</span>
+				<span class="info" id="out_tip">$0.00</span>
 			</p>
 
 			<p class="output">
 				<span>Total:</span>
-				<span class="info" id="total">0.00</span>
+				<span class="info" id="out_total">$0.00</span>
 			</p>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>

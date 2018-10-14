@@ -13,11 +13,11 @@
 	flex-direction: column;
 }
 
-.input-label {
+.input_label {
 	font-size: 2em;
 }
 
-.input-textbox {
+.input_textbox {
 	font-size: 6em;
 	border: 1px;
 	border-style: groove;
